@@ -1,0 +1,12 @@
+
+services:
+  etl-pipeline:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: crypto_etl_job
+    env_file:
+      - .env
+    # Necessary if connecting to a SQL Server instance running on your host machine
+    extra_hosts:
+      - "host.docker.internal:host-gateway"
