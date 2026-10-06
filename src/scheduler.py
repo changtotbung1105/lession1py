@@ -1,7 +1,7 @@
 import schedule
 import time
 from main import run_pipeline
-from logger_config import logger
+from src.logger_config import logger
 
 def scheduled_job():
     logger.info("Triggering scheduled ETL pipeline run...")
