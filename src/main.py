@@ -2,8 +2,8 @@ import urllib.request
 import urllib.error
 import json
 import time
-from db_connection import save_crypto_batch
-from logger_config import logger
+from src.db_connection import save_crypto_batch
+from src.logger_config import logger
 
 
 API_URL = (
