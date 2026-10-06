@@ -1,0 +1,14 @@
+# Security & Credentials
+.env
+
+# Execution Logs
+*.log
+
+# Python cache and environment files
+__pycache__/
+*.pyc
+venv/
+.venv/
+
+# VS Code settings
+.vscode/
